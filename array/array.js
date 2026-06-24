@@ -13,3 +13,8 @@ try {
 } catch {
   console.error("Please read the instructions carefully and try again");
 }
+
+
+
+let arr = [1, 2, 3, 4, 5];
+console.log("Original array:", arr);
