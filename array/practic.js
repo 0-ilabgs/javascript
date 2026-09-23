@@ -21,7 +21,7 @@ arr2.push(30);
 let arr3 = [1, 2, 3];
 arr3.custom = "hello";
 for (let key in arr3) {
-    console.log(key);
+    // console.log(key);
 } // 0, 1, 2, custom
 
 
@@ -31,8 +31,13 @@ let person = {
 };
 for (let key in person) {
     if(key === "name") {
-        console.log(person[key]);
+        // console.log(person[key]);
     }
 }
 
 
+let arr4 = [1, 2, 3];
+// arr4.push(30);
+console.log(arr4.length);
+// arr4.pop();
+// console.log(arr4);
