@@ -1,8 +1,14 @@
-let arr1 = [1,2,3];
-let arr2 = [4,5];
+// let arr1 = [1,2,3];
+// let arr2 = [4,5];
 
-let marge = arr1.concat(arr2);
+// let marge = arr1.concat(arr2);
 
-console.log(marge);
-console.log(arr1);
-console.log(arr2);
+// console.log(marge);
+// console.log(arr1);
+// console.log(arr2);
+
+
+
+
+let arr = [1, 2];
+console.log(arr.concat(3, 4));
